@@ -34,3 +34,24 @@ func signup(context *gin.Context) {
 		"user_id": user.ID,
 	})
 }
+
+func login(context *gin.Context) {
+	var user models.User
+
+	err := context.ShouldBindJSON(&user)
+	
+	if err != nil {
+		return
+	}
+
+	err = user.ValidateCredentials()
+
+	if err != nil {
+		context.JSON(
+			http.StatusUnauthorized,
+			gin.H{"message": "Could not authenticate user"})
+		return
+	}
+
+	context.JSON(http.StatusOK, gin.H{"message": "Authentication successful"})
+}
