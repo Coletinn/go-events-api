@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hbGRpbmlAZXhhbXBsZS5jb20iLCJleHAiOjE3NDYwNDM1NzEsInVzZXJJZCI6MH0.AETq0vBu_wSzDeGPjyO-4l7_LTodF1mzlMKcfZPbT0A
+
+{
+    "name": "Coliseum Tour",
+    "description": "Tour to the coliseum",
+    "location": "Coliseum Roma",
+    "dateTime": "2025-04-30T15:00:00.000Z"
+}
