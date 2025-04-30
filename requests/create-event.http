@@ -1,10 +1,10 @@
 POST http://localhost:8080/events
 content-type: application/json
-authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hbGRpbmlAZXhhbXBsZS5jb20iLCJleHAiOjE3NDYwNDM1NzEsInVzZXJJZCI6MH0.AETq0vBu_wSzDeGPjyO-4l7_LTodF1mzlMKcfZPbT0A
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hbGRpbmlAZXhhbXBsZS5jb20iLCJleHAiOjE3NDYwNTM5MTMsInVzZXJJZCI6Mn0.z_tZ4KQzlCRFvx4jHmQNaVnh8N0rFdJOwyxDhgYzQEk
 
 {
-    "name": "Coliseum Tour",
-    "description": "Tour to the coliseum",
-    "location": "Coliseum Roma",
+    "name": "Paris tour",
+    "description": "Tour to Paris",
+    "location": "Paris",
     "dateTime": "2025-04-30T15:00:00.000Z"
 }
