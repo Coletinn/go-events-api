@@ -1,6 +1,6 @@
 POST http://localhost:8080/events
 content-type: application/json
-authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hbGRpbmlAZXhhbXBsZS5jb20iLCJleHAiOjE3NDYwNTM5MTMsInVzZXJJZCI6Mn0.z_tZ4KQzlCRFvx4jHmQNaVnh8N0rFdJOwyxDhgYzQEk
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hbGRpbmlAZXhhbXBsZS5jb20iLCJleHAiOjE3NDYzMDU1NTIsInVzZXJJZCI6MX0.FEa-EBFXtd_vtkyRS9rQsApYh9bCQuvb4DzHItXp9vQ
 
 {
     "name": "Paris tour",
